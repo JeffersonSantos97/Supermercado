@@ -1,8 +1,10 @@
 package br.com.jefferson.mercado.dominio;
 
+
 public class Biscoito extends Produto{
 
     private Integer compCancer;
+    private String test;
 
     public Biscoito(String nome, Double preco, String dataValidade, Integer compCancer){
 
